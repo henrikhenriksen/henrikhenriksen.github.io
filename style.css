@@ -239,3 +239,33 @@ footer a:hover { color: #e30613; }
   .hero h1 { font-size: 2rem; }
   .contact button { width: 100%; }
 }
+
+
+/* What We Do Section */
+#what-we-do {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.what-we-do-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #e74c3c;
+  font-weight: 600;
+  position: relative;
+}
+
+.highlight::before {
+  content: "→";
+  position: absolute;
+  left: -20px;
+  color: #e74c3c;
+}
